@@ -1,0 +1,6 @@
+<map id="zeek::threading::detail::HeartbeatMessage" name="zeek::threading::detail::HeartbeatMessage">
+<area shape="rect" id="node1" title="Sends a heartbeat to the child thread." alt="" coords="33,259,201,300"/>
+<area shape="rect" id="node2" href="$d4/d14/classzeek_1_1threading_1_1InputMessage.html" title=" " alt="" coords="5,169,228,211"/>
+<area shape="rect" id="node3" href="$d8/d9a/classzeek_1_1threading_1_1BasicInputMessage.html" title=" " alt="" coords="17,80,216,121"/>
+<area shape="rect" id="node4" href="$d8/dbb/classzeek_1_1threading_1_1Message.html" title=" " alt="" coords="22,5,211,32"/>
+</map>

@@ -1,0 +1,8 @@
+<map id="zeek::threading::Value" name="zeek::threading::Value">
+<area shape="rect" id="node1" title=" " alt="" coords="5,47,172,74"/>
+<area shape="rect" id="node3" href="$da/d45/structzeek_1_1threading_1_1Value.html#d0/d39/structzeek_1_1threading_1_1Value_1_1set__t" title="False for optional record fields that are not set." alt="" coords="261,5,428,47"/>
+<area shape="rect" id="node2" href="$df/d0e/unionzeek_1_1threading_1_1Value_1_1__val.html" title=" " alt="" coords="552,135,719,176"/>
+<area shape="rect" id="node4" href="$da/d45/structzeek_1_1threading_1_1Value.html#d1/d2d/structzeek_1_1threading_1_1Value_1_1port__t" title=" " alt="" coords="261,135,428,176"/>
+<area shape="rect" id="node5" href="$da/d45/structzeek_1_1threading_1_1Value.html#df/dcd/structzeek_1_1threading_1_1Value_1_1addr__t" title=" " alt="" coords="5,212,172,253"/>
+<area shape="rect" id="node6" href="$da/d45/structzeek_1_1threading_1_1Value.html#dd/d8c/structzeek_1_1threading_1_1Value_1_1subnet__t" title=" " alt="" coords="261,264,428,305"/>
+</map>

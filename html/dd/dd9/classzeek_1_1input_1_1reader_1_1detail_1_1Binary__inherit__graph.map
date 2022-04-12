@@ -1,0 +1,7 @@
+<map id="zeek::input::reader::detail::Binary" name="zeek::input::reader::detail::Binary">
+<area shape="rect" id="node1" title=" " alt="" coords="149,229,293,271"/>
+<area shape="rect" id="node2" href="$dc/d1d/classzeek_1_1input_1_1ReaderBackend.html" title=" " alt="" coords="120,155,323,181"/>
+<area shape="rect" id="node3" href="$d8/d7d/classzeek_1_1threading_1_1MsgThread.html" title=" " alt="" coords="120,80,323,107"/>
+<area shape="rect" id="node4" href="$d3/dd9/classzeek_1_1threading_1_1BasicThread.html" title=" " alt="" coords="5,5,216,32"/>
+<area shape="rect" id="node5" href="$da/dea/classzeek_1_1iosource_1_1IOSource.html" title=" " alt="" coords="241,5,423,32"/>
+</map>

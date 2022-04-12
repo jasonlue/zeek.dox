@@ -1,0 +1,13 @@
+<map id="zeek::input::ReaderFrontend" name="zeek::input::ReaderFrontend">
+<area shape="rect" id="node1" title=" " alt="" coords="657,334,863,361"/>
+<area shape="rect" id="node3" href="$dc/d1d/classzeek_1_1input_1_1ReaderBackend.html" title=" " alt="" coords="971,302,1173,329"/>
+<area shape="rect" id="node2" href="$d9/d94/structzeek_1_1input_1_1ReaderBackend_1_1ReaderInfo.html" title=" " alt="" coords="322,295,525,336"/>
+<area shape="rect" id="node4" href="$d8/d7d/classzeek_1_1threading_1_1MsgThread.html" title=" " alt="" coords="659,134,861,161"/>
+<area shape="rect" id="node5" href="$d3/dd9/classzeek_1_1threading_1_1BasicThread.html" title=" " alt="" coords="5,47,216,74"/>
+<area shape="rect" id="node9" href="$dd/dd1/classzeek_1_1threading_1_1Queue.html" title=" " alt="" coords="311,33,536,89"/>
+<area shape="rect" id="node10" href="$dd/dd1/classzeek_1_1threading_1_1Queue.html" title=" " alt="" coords="316,163,531,219"/>
+<area shape="rect" id="node6" href="$da/dea/classzeek_1_1iosource_1_1IOSource.html" title=" " alt="" coords="332,113,515,139"/>
+<area shape="rect" id="node7" href="$d5/dce/classzeek_1_1detail_1_1Flare.html" title=" " alt="" coords="354,243,493,270"/>
+<area shape="rect" id="node8" href="$de/dd5/classzeek_1_1detail_1_1Pipe.html" title=" " alt="" coords="43,243,178,270"/>
+<area shape="rect" id="node11" href="$d8/d69/structzeek_1_1threading_1_1Field.html" title=" " alt="" coords="342,375,505,402"/>
+</map>
