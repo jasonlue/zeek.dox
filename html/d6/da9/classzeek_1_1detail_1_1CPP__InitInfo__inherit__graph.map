@@ -1,0 +1,31 @@
+<map id="zeek::detail::CPP_InitInfo" name="zeek::detail::CPP_InitInfo">
+<area shape="rect" id="node1" title=" " alt="" coords="5,715,189,741"/>
+<area shape="rect" id="node2" href="$db/db0/classzeek_1_1detail_1_1AbstractTypeInfo.html" title=" " alt="" coords="261,233,476,260"/>
+<area shape="rect" id="node12" href="$de/d8e/classzeek_1_1detail_1_1BasicConstInfo.html" title=" " alt="" coords="267,512,470,539"/>
+<area shape="rect" id="node13" href="$d8/d6c/classzeek_1_1detail_1_1CallExprInitInfo.html" title=" " alt="" coords="265,563,472,589"/>
+<area shape="rect" id="node14" href="$d3/def/classzeek_1_1detail_1_1CompoundItemInfo.html" title=" " alt="" coords="253,613,484,640"/>
+<area shape="rect" id="node23" href="$d7/dbc/classzeek_1_1detail_1_1DescConstInfo.html" title=" " alt="" coords="269,664,469,691"/>
+<area shape="rect" id="node24" href="$d3/dd5/classzeek_1_1detail_1_1EnumConstInfo.html" title=" " alt="" coords="266,715,471,741"/>
+<area shape="rect" id="node25" href="$d2/da6/classzeek_1_1detail_1_1GlobalInitInfo.html" title=" " alt="" coords="271,765,466,792"/>
+<area shape="rect" id="node26" href="$d9/dbc/classzeek_1_1detail_1_1LambdaRegistrationInfo.html" title=" " alt="" coords="237,816,500,843"/>
+<area shape="rect" id="node27" href="$d6/d77/classzeek_1_1detail_1_1PatternConstInfo.html" title=" " alt="" coords="261,867,476,893"/>
+<area shape="rect" id="node28" href="$df/df2/classzeek_1_1detail_1_1PortConstInfo.html" title=" " alt="" coords="271,917,466,944"/>
+<area shape="rect" id="node29" href="$dd/dc7/classzeek_1_1detail_1_1StringConstInfo.html" title=" " alt="" coords="265,968,472,995"/>
+<area shape="rect" id="node3" href="$d7/d2c/classzeek_1_1detail_1_1BaseTypeInfo.html" title=" " alt="" coords="558,5,751,32"/>
+<area shape="rect" id="node4" href="$d2/da2/classzeek_1_1detail_1_1EnumTypeInfo.html" title=" " alt="" coords="555,56,754,83"/>
+<area shape="rect" id="node5" href="$d2/d1e/classzeek_1_1detail_1_1FuncTypeInfo.html" title=" " alt="" coords="559,107,750,133"/>
+<area shape="rect" id="node6" href="$db/daf/classzeek_1_1detail_1_1ListTypeInfo.html" title=" " alt="" coords="563,157,747,184"/>
+<area shape="rect" id="node7" href="$da/d1b/classzeek_1_1detail_1_1OpaqueTypeInfo.html" title=" " alt="" coords="549,208,760,235"/>
+<area shape="rect" id="node8" href="$d8/d9f/classzeek_1_1detail_1_1RecordTypeInfo.html" title=" " alt="" coords="551,259,758,285"/>
+<area shape="rect" id="node9" href="$dd/da2/classzeek_1_1detail_1_1TableTypeInfo.html" title=" " alt="" coords="557,309,752,336"/>
+<area shape="rect" id="node10" href="$d0/de8/classzeek_1_1detail_1_1TypeTypeInfo.html" title=" " alt="" coords="559,360,750,387"/>
+<area shape="rect" id="node11" href="$d2/df7/classzeek_1_1detail_1_1VectorTypeInfo.html" title=" " alt="" coords="553,411,756,437"/>
+<area shape="rect" id="node15" href="$d9/d32/classzeek_1_1detail_1_1AttrInfo.html" title=" " alt="" coords="577,461,732,488"/>
+<area shape="rect" id="node16" href="$d4/df8/classzeek_1_1detail_1_1AttrsInfo.html" title=" " alt="" coords="573,512,736,539"/>
+<area shape="rect" id="node17" href="$dc/dfa/classzeek_1_1detail_1_1FileConstInfo.html" title=" " alt="" coords="559,563,750,589"/>
+<area shape="rect" id="node18" href="$d9/d84/classzeek_1_1detail_1_1FuncConstInfo.html" title=" " alt="" coords="555,613,754,640"/>
+<area shape="rect" id="node19" href="$d7/d81/classzeek_1_1detail_1_1ListConstInfo.html" title=" " alt="" coords="559,664,750,691"/>
+<area shape="rect" id="node20" href="$d4/d9c/classzeek_1_1detail_1_1RecordConstInfo.html" title=" " alt="" coords="548,715,761,741"/>
+<area shape="rect" id="node21" href="$d5/d66/classzeek_1_1detail_1_1TableConstInfo.html" title=" " alt="" coords="553,765,756,792"/>
+<area shape="rect" id="node22" href="$df/d5b/classzeek_1_1detail_1_1VectorConstInfo.html" title=" " alt="" coords="550,816,759,843"/>
+</map>

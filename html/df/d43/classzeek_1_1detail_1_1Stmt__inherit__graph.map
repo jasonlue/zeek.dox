@@ -1,0 +1,28 @@
+<map id="zeek::detail::Stmt" name="zeek::detail::Stmt">
+<area shape="rect" id="node1" title=" " alt="" coords="136,335,273,361"/>
+<area shape="rect" id="node3" href="$df/d17/classzeek_1_1detail_1_1BreakStmt.html" title=" " alt="" coords="343,5,517,32"/>
+<area shape="rect" id="node4" href="$d5/ddb/classzeek_1_1detail_1_1CPPStmt.html" title=" " alt="" coords="349,56,511,83"/>
+<area shape="rect" id="node5" href="$db/de6/classzeek_1_1detail_1_1CatchReturnStmt.html" title=" " alt="" coords="321,107,539,133"/>
+<area shape="rect" id="node6" href="$d6/de1/classzeek_1_1detail_1_1ExprListStmt.html" title=" " alt="" coords="335,157,525,184"/>
+<area shape="rect" id="node8" href="$d6/df8/classzeek_1_1detail_1_1ExprStmt.html" title=" " alt="" coords="347,208,513,235"/>
+<area shape="rect" id="node18" href="$d0/dbb/classzeek_1_1detail_1_1FallthroughStmt.html" title=" " alt="" coords="325,259,535,285"/>
+<area shape="rect" id="node19" href="$d5/d92/classzeek_1_1detail_1_1InitStmt.html" title=" " alt="" coords="351,309,509,336"/>
+<area shape="rect" id="node20" href="$dc/d89/classzeek_1_1detail_1_1NextStmt.html" title=" " alt="" coords="346,360,514,387"/>
+<area shape="rect" id="node21" href="$d7/d28/classzeek_1_1detail_1_1NullStmt.html" title=" " alt="" coords="349,411,511,437"/>
+<area shape="rect" id="node22" href="$d0/d19/classzeek_1_1detail_1_1StmtList.html" title=" " alt="" coords="350,461,510,488"/>
+<area shape="rect" id="node23" href="$d6/d80/classzeek_1_1detail_1_1WhenStmt.html" title=" " alt="" coords="343,512,517,539"/>
+<area shape="rect" id="node24" href="$de/d15/classzeek_1_1detail_1_1WhileStmt.html" title=" " alt="" coords="343,563,517,589"/>
+<area shape="rect" id="node25" href="$d4/df1/classzeek_1_1detail_1_1ZAMResumption.html" title=" " alt="" coords="323,613,537,640"/>
+<area shape="rect" id="node26" href="$dd/dd5/classzeek_1_1detail_1_1ZBody.html" title=" " alt="" coords="356,664,504,691"/>
+<area shape="rect" id="node2" href="$dd/df1/classzeek_1_1Obj.html" title=" " alt="" coords="5,335,88,361"/>
+<area shape="rect" id="node7" href="$d3/d6b/classzeek_1_1detail_1_1PrintStmt.html" title=" " alt="" coords="616,31,783,57"/>
+<area shape="rect" id="node9" href="$d5/d59/classzeek_1_1detail_1_1AddDelStmt.html" title=" " alt="" coords="607,81,791,108"/>
+<area shape="rect" id="node12" href="$d7/dca/classzeek_1_1detail_1_1CheckAnyLenStmt.html" title=" " alt="" coords="587,132,812,159"/>
+<area shape="rect" id="node13" href="$d1/d06/classzeek_1_1detail_1_1EventStmt.html" title=" " alt="" coords="612,183,787,209"/>
+<area shape="rect" id="node14" href="$d6/d1f/classzeek_1_1detail_1_1ForStmt.html" title=" " alt="" coords="621,233,778,260"/>
+<area shape="rect" id="node15" href="$df/dda/classzeek_1_1detail_1_1IfStmt.html" title=" " alt="" coords="626,284,773,311"/>
+<area shape="rect" id="node16" href="$de/d4a/classzeek_1_1detail_1_1ReturnStmt.html" title=" " alt="" coords="609,335,789,361"/>
+<area shape="rect" id="node17" href="$d8/d1c/classzeek_1_1detail_1_1SwitchStmt.html" title=" " alt="" coords="609,385,789,412"/>
+<area shape="rect" id="node10" href="$d0/d6d/classzeek_1_1detail_1_1AddStmt.html" title=" " alt="" coords="860,56,1023,83"/>
+<area shape="rect" id="node11" href="$df/d58/classzeek_1_1detail_1_1DelStmt.html" title=" " alt="" coords="862,107,1021,133"/>
+</map>

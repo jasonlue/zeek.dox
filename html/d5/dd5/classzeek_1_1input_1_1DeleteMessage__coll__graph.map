@@ -1,0 +1,12 @@
+<map id="zeek::input::DeleteMessage" name="zeek::input::DeleteMessage">
+<area shape="rect" id="node1" title=" " alt="" coords="827,19,1029,46"/>
+<area shape="rect" id="node2" href="$dd/d41/classzeek_1_1threading_1_1OutputMessage.html" title=" " alt="" coords="504,5,737,47"/>
+<area shape="rect" id="node3" href="$d6/df9/classzeek_1_1threading_1_1BasicOutputMessage.html" title=" " alt="" coords="244,5,455,47"/>
+<area shape="rect" id="node4" href="$d8/dbb/classzeek_1_1threading_1_1Message.html" title=" " alt="" coords="5,13,195,39"/>
+<area shape="rect" id="node5" href="$da/d45/structzeek_1_1threading_1_1Value.html" title=" " alt="" coords="537,93,704,119"/>
+<area shape="rect" id="node7" href="$da/d45/structzeek_1_1threading_1_1Value.html#d0/d39/structzeek_1_1threading_1_1Value_1_1set__t" title="False for optional record fields that are not set." alt="" coords="845,77,1011,119"/>
+<area shape="rect" id="node6" href="$df/d0e/unionzeek_1_1threading_1_1Value_1_1__val.html" title=" " alt="" coords="1153,207,1320,248"/>
+<area shape="rect" id="node8" href="$da/d45/structzeek_1_1threading_1_1Value.html#d1/d2d/structzeek_1_1threading_1_1Value_1_1port__t" title=" " alt="" coords="845,207,1011,248"/>
+<area shape="rect" id="node9" href="$da/d45/structzeek_1_1threading_1_1Value.html#df/dcd/structzeek_1_1threading_1_1Value_1_1addr__t" title=" " alt="" coords="537,292,704,333"/>
+<area shape="rect" id="node10" href="$da/d45/structzeek_1_1threading_1_1Value.html#dd/d8c/structzeek_1_1threading_1_1Value_1_1subnet__t" title=" " alt="" coords="845,336,1011,377"/>
+</map>
