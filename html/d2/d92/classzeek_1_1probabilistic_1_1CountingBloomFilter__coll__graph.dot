@@ -1,0 +1,21 @@
+digraph "zeek::probabilistic::CountingBloomFilter"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="zeek::probabilistic\l::CountingBloomFilter",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="zeek::probabilistic\l::BloomFilter",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d71/classzeek_1_1probabilistic_1_1BloomFilter.html",tooltip=" "];
+  Node3 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" hasher" ,fontname="Helvetica"];
+  Node3 [label="zeek::probabilistic\l::detail::Hasher",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/d73/classzeek_1_1probabilistic_1_1detail_1_1Hasher.html",tooltip=" "];
+  Node4 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" k" ,fontname="Helvetica"];
+  Node4 [label="size_t",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",tooltip=" "];
+  Node5 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" seed" ,fontname="Helvetica"];
+  Node5 [label="zeek::probabilistic\l::detail::Hasher::seed_t",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d54/structzeek_1_1probabilistic_1_1detail_1_1Hasher_1_1seed__t.html",tooltip=" "];
+  Node6 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" cells" ,fontname="Helvetica"];
+  Node6 [label="zeek::probabilistic\l::detail::CounterVector",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/db8/classzeek_1_1probabilistic_1_1detail_1_1CounterVector.html",tooltip=" "];
+  Node7 -> Node6 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" bits" ,fontname="Helvetica"];
+  Node7 [label="zeek::probabilistic\l::detail::BitVector",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/de6/classzeek_1_1probabilistic_1_1detail_1_1BitVector.html",tooltip=" "];
+  Node4 -> Node7 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" npos\nnum_bits" ,fontname="Helvetica"];
+  Node4 -> Node6 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" width" ,fontname="Helvetica"];
+}

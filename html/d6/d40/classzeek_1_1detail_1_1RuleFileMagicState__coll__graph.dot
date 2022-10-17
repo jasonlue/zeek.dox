@@ -1,0 +1,45 @@
+digraph "zeek::detail::RuleFileMagicState"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="zeek::detail::RuleFileMagic\lState",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node2 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" matchers" ,fontname="Helvetica"];
+  Node2 [label="zeek::List\< Matcher \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/d8d/classzeek_1_1List.html",tooltip=" "];
+  Node3 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" entries" ,fontname="Helvetica"];
+  Node3 [label="zeek::detail::RuleEndpoint\lState::Matcher",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/da2/classzeek_1_1detail_1_1RuleEndpointState.html#d5/d8a/structzeek_1_1detail_1_1RuleEndpointState_1_1Matcher",tooltip=" "];
+  Node4 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" state" ,fontname="Helvetica"];
+  Node4 [label="zeek::detail::RE_Match\l_State",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/d2a/classzeek_1_1detail_1_1RE__Match__State.html",tooltip=" "];
+  Node5 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" dfa" ,fontname="Helvetica"];
+  Node5 [label="zeek::detail::DFA_Machine",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/dd7/classzeek_1_1detail_1_1DFA__Machine.html",tooltip=" "];
+  Node6 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="zeek::Obj",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/df1/classzeek_1_1Obj.html",tooltip=" "];
+  Node7 -> Node6 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" location" ,fontname="Helvetica"];
+  Node7 [label="zeek::detail::Location",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d1d/classzeek_1_1detail_1_1Location.html",tooltip=" "];
+  Node8 -> Node5 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" ec" ,fontname="Helvetica"];
+  Node8 [label="zeek::detail::EquivClass",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/d37/classzeek_1_1detail_1_1EquivClass.html",tooltip=" "];
+  Node9 -> Node5 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" start_state" ,fontname="Helvetica"];
+  Node9 [label="zeek::detail::DFA_State",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/d7e/classzeek_1_1detail_1_1DFA__State.html",tooltip=" "];
+  Node6 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 -> Node9 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" mark\nxtions" ,fontname="Helvetica"];
+  Node10 -> Node9 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" nfa_states" ,fontname="Helvetica"];
+  Node10 [label="zeek::List\< T, Order \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/d8d/classzeek_1_1List.html",tooltip=" "];
+  Node8 -> Node9 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" meta_ec" ,fontname="Helvetica"];
+  Node11 -> Node5 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" dfa_state_cache" ,fontname="Helvetica"];
+  Node11 [label="zeek::detail::DFA_State\l_Cache",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d31/classzeek_1_1detail_1_1DFA__State__Cache.html",tooltip=" "];
+  Node12 -> Node5 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" nfa" ,fontname="Helvetica"];
+  Node12 [label="zeek::detail::NFA_Machine",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d68/classzeek_1_1detail_1_1NFA__Machine.html",tooltip=" "];
+  Node6 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 -> Node12 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" final_state\nfirst_state" ,fontname="Helvetica"];
+  Node13 [label="zeek::detail::NFA_State",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/da3/classzeek_1_1detail_1_1NFA__State.html",tooltip=" "];
+  Node6 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 -> Node13 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" ccl" ,fontname="Helvetica"];
+  Node14 [label="zeek::detail::CCL",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/d9b/classzeek_1_1detail_1_1CCL.html",tooltip=" "];
+  Node15 -> Node13 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" xtions" ,fontname="Helvetica"];
+  Node15 [label="zeek::List\< NFA_State \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/d8d/classzeek_1_1List.html",tooltip=" "];
+  Node13 -> Node15 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" entries" ,fontname="Helvetica"];
+  Node10 -> Node13 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" epsclosure" ,fontname="Helvetica"];
+  Node13 -> Node13 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" mark" ,fontname="Helvetica"];
+  Node9 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" current_state" ,fontname="Helvetica"];
+}

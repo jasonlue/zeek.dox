@@ -1,0 +1,55 @@
+digraph "zeek::zeekygen::detail::Manager"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="zeek::zeekygen::detail\l::Manager",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node2 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" packages" ,fontname="Helvetica"];
+  Node2 [label="zeek::zeekygen::detail\l::InfoMap\< zeek::zeekygen\l::detail::PackageInfo \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d0/de7/structzeek_1_1zeekygen_1_1detail_1_1InfoMap.html",tooltip=" "];
+  Node3 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" scripts" ,fontname="Helvetica"];
+  Node3 [label="zeek::zeekygen::detail\l::InfoMap\< zeek::zeekygen\l::detail::ScriptInfo \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d0/de7/structzeek_1_1zeekygen_1_1detail_1_1InfoMap.html",tooltip=" "];
+  Node4 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" identifiers" ,fontname="Helvetica"];
+  Node4 [label="zeek::zeekygen::detail\l::InfoMap\< zeek::zeekygen\l::detail::IdentifierInfo \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d0/de7/structzeek_1_1zeekygen_1_1detail_1_1InfoMap.html",tooltip=" "];
+  Node5 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" incomplete_type\nlast_identifier_seen" ,fontname="Helvetica"];
+  Node5 [label="zeek::zeekygen::detail\l::IdentifierInfo",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/d36/classzeek_1_1zeekygen_1_1detail_1_1IdentifierInfo.html",tooltip=" "];
+  Node6 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="zeek::zeekygen::detail\l::Info",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d9a/classzeek_1_1zeekygen_1_1detail_1_1Info.html",tooltip=" "];
+  Node7 -> Node5 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" id" ,fontname="Helvetica"];
+  Node7 [label="zeek::IntrusivePtr\l\< ID \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/dba/classzeek_1_1IntrusivePtr.html",tooltip=" "];
+  Node8 -> Node5 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" initial_val" ,fontname="Helvetica"];
+  Node8 [label="zeek::IntrusivePtr\l\< Val \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/dba/classzeek_1_1IntrusivePtr.html",tooltip=" "];
+  Node9 -> Node8 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" ptr_" ,fontname="Helvetica"];
+  Node9 [label="zeek::Val",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/d49/classzeek_1_1Val.html",tooltip=" "];
+  Node10 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="zeek::Obj",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/df1/classzeek_1_1Obj.html",tooltip=" "];
+  Node11 -> Node10 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" location" ,fontname="Helvetica"];
+  Node11 [label="zeek::detail::Location",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d1d/classzeek_1_1detail_1_1Location.html",tooltip=" "];
+  Node12 -> Node9 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" nil" ,fontname="Helvetica"];
+  Node12 [label="zeek::IntrusivePtr\< T \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/dba/classzeek_1_1IntrusivePtr.html",tooltip=" "];
+  Node13 -> Node9 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" type" ,fontname="Helvetica"];
+  Node13 [label="zeek::IntrusivePtr\l\< Type \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/dba/classzeek_1_1IntrusivePtr.html",tooltip=" "];
+  Node14 -> Node13 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" ptr_" ,fontname="Helvetica"];
+  Node14 [label="zeek::Type",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d0/d4f/classzeek_1_1Type.html",tooltip=" "];
+  Node10 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 -> Node14 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" nil" ,fontname="Helvetica"];
+  Node15 -> Node14 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" name" ,fontname="Helvetica"];
+  Node15 [label="string",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",tooltip=" "];
+  Node16 -> Node5 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" last_field_seen" ,fontname="Helvetica"];
+  Node16 [label="zeek::zeekygen::detail\l::IdentifierInfo::RecordField",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/de2/structzeek_1_1zeekygen_1_1detail_1_1IdentifierInfo_1_1RecordField.html",tooltip=" "];
+  Node17 -> Node16 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" field" ,fontname="Helvetica"];
+  Node17 [label="zeek::TypeDecl",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/dc4/classzeek_1_1TypeDecl.html",tooltip=" "];
+  Node13 -> Node17 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" type" ,fontname="Helvetica"];
+  Node18 -> Node17 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" attrs" ,fontname="Helvetica"];
+  Node18 [label="zeek::IntrusivePtr\l\< Attributes \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/dba/classzeek_1_1IntrusivePtr.html",tooltip=" "];
+  Node15 -> Node16 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" from_script" ,fontname="Helvetica"];
+  Node19 -> Node5 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" declaring_script" ,fontname="Helvetica"];
+  Node19 [label="zeek::zeekygen::detail\l::ScriptInfo",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/dcd/classzeek_1_1zeekygen_1_1detail_1_1ScriptInfo.html",tooltip=" "];
+  Node6 -> Node19 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 -> Node19 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" name\npath" ,fontname="Helvetica"];
+  Node20 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" config" ,fontname="Helvetica"];
+  Node20 [label="zeek::zeekygen::detail\l::Config",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d3/d7f/classzeek_1_1zeekygen_1_1detail_1_1Config.html",tooltip=" "];
+  Node15 -> Node20 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" file" ,fontname="Helvetica"];
+  Node21 -> Node20 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" target_factory" ,fontname="Helvetica"];
+  Node21 [label="zeek::zeekygen::detail\l::TargetFactory",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d8f/classzeek_1_1zeekygen_1_1detail_1_1TargetFactory.html",tooltip=" "];
+}

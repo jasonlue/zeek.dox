@@ -1,0 +1,11 @@
+digraph "zeek::analyzer::ncp::detail::NCP_FrameBuffer"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="zeek::analyzer::ncp\l::detail::NCP_FrameBuffer",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="zeek::analyzer::ncp\l::detail::FrameBuffer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d0/d8c/classzeek_1_1analyzer_1_1ncp_1_1detail_1_1FrameBuffer.html",tooltip=" "];
+  Node3 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" buf_len\nbuf_n\nhdr_len" ,fontname="Helvetica"];
+  Node3 [label="size_t",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",tooltip=" "];
+}

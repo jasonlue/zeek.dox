@@ -1,0 +1,11 @@
+digraph "/Users/jlu/zeek/src/analyzer/protocol/ftp"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  compound=true
+  subgraph clusterdir_5b88579d87e8de5dcee2ef4958d0594c {
+    graph [ bgcolor="#edf0f7", pencolor="grey50", style="filled,dashed,", label="protocol", fontname="Helvetica", fontsize="10", URL="dir_5b88579d87e8de5dcee2ef4958d0594c.html"]
+  dir_65a6b0cf67e09ad732c68c670af4a518 [shape=box, label="ftp", style="filled,bold,", fillcolor="#edf0f7", color="grey25", URL="dir_65a6b0cf67e09ad732c68c670af4a518.html"];
+  }
+}

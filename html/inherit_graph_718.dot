@@ -1,0 +1,20 @@
+digraph "Graphical Class Hierarchy"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="zeek::telemetry::MetricFamily",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/d29/classzeek_1_1telemetry_1_1MetricFamily.html",tooltip=" "];
+  Node0 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 [label="zeek::telemetry::DblCounter\lFamily",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/d73/classzeek_1_1telemetry_1_1DblCounterFamily.html",tooltip=" "];
+  Node0 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="zeek::telemetry::DblGauge\lFamily",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d73/classzeek_1_1telemetry_1_1DblGaugeFamily.html",tooltip=" "];
+  Node0 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="zeek::telemetry::DblHistogram\lFamily",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/dc7/classzeek_1_1telemetry_1_1DblHistogramFamily.html",tooltip=" "];
+  Node0 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="zeek::telemetry::IntCounter\lFamily",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/d8b/classzeek_1_1telemetry_1_1IntCounterFamily.html",tooltip=" "];
+  Node0 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="zeek::telemetry::IntGauge\lFamily",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/d0d/classzeek_1_1telemetry_1_1IntGaugeFamily.html",tooltip=" "];
+  Node0 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="zeek::telemetry::IntHistogram\lFamily",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/d33/classzeek_1_1telemetry_1_1IntHistogramFamily.html",tooltip=" "];
+}

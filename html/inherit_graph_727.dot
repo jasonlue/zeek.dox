@@ -1,0 +1,8 @@
+digraph "Graphical Class Hierarchy"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="zeek::threading::MsgThread\l::Stats",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/d7d/classzeek_1_1threading_1_1MsgThread.html#dd/d6e/structzeek_1_1threading_1_1MsgThread_1_1Stats",tooltip=" "];
+}

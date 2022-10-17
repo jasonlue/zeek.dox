@@ -1,0 +1,45 @@
+digraph "zeek::detail::TableTypeInfo"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="zeek::detail::TableTypeInfo",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="zeek::detail::AbstractTypeInfo",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/db0/classzeek_1_1detail_1_1AbstractTypeInfo.html",tooltip=" "];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="zeek::detail::CPP_InitInfo",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/dd6/classzeek_1_1detail_1_1CPP__InitInfo.html",tooltip=" "];
+  Node4 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" inits_collection" ,fontname="Helvetica"];
+  Node4 [label="zeek::detail::CPP_InitsInfo",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/d31/classzeek_1_1detail_1_1CPP__InitsInfo.html",tooltip=" "];
+  Node5 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" CPP_type\nbase_name\ninits_type\ntag" ,fontname="Helvetica"];
+  Node5 [label="string",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",tooltip=" "];
+  Node6 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" c" ,fontname="Helvetica"];
+  Node6 [label="zeek::detail::CPPCompile",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/d9b/classzeek_1_1detail_1_1CPPCompile.html",tooltip=" "];
+  Node7 -> Node6 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" pfs" ,fontname="Helvetica"];
+  Node7 [label="zeek::detail::ProfileFuncs",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/d54/classzeek_1_1detail_1_1ProfileFuncs.html",tooltip=" "];
+  Node5 -> Node6 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" body_name\nworking_dir" ,fontname="Helvetica"];
+  Node8 -> Node6 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" ret_type" ,fontname="Helvetica"];
+  Node8 [label="zeek::IntrusivePtr\l\< Type \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/dba/classzeek_1_1IntrusivePtr.html",tooltip=" "];
+  Node9 -> Node8 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" ptr_" ,fontname="Helvetica"];
+  Node9 [label="zeek::Type",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d0/d4f/classzeek_1_1Type.html",tooltip=" "];
+  Node10 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="zeek::Obj",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/df1/classzeek_1_1Obj.html",tooltip=" "];
+  Node11 -> Node10 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" location" ,fontname="Helvetica"];
+  Node11 [label="zeek::detail::Location",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d1d/classzeek_1_1detail_1_1Location.html",tooltip=" "];
+  Node12 -> Node9 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" nil" ,fontname="Helvetica"];
+  Node12 [label="zeek::IntrusivePtr\< T \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/dba/classzeek_1_1IntrusivePtr.html",tooltip=" "];
+  Node5 -> Node9 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" name" ,fontname="Helvetica"];
+  Node13 -> Node6 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" indices_mgr" ,fontname="Helvetica"];
+  Node13 [label="zeek::detail::IndicesManager",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d2f/classzeek_1_1detail_1_1IndicesManager.html",tooltip=" "];
+  Node14 -> Node6 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" types" ,fontname="Helvetica"];
+  Node14 [label="zeek::detail::CPPTracker\l\< zeek::Type \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/de9/classzeek_1_1detail_1_1CPPTracker.html",tooltip=" "];
+  Node5 -> Node14 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" base_name" ,fontname="Helvetica"];
+  Node15 -> Node6 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" attributes" ,fontname="Helvetica"];
+  Node15 [label="zeek::detail::CPPTracker\l\< zeek::detail::Attributes \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/de9/classzeek_1_1detail_1_1CPPTracker.html",tooltip=" "];
+  Node5 -> Node15 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" base_name" ,fontname="Helvetica"];
+  Node16 -> Node6 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" init_exprs" ,fontname="Helvetica"];
+  Node16 [label="zeek::detail::CPPTracker\l\< zeek::detail::Expr \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/de9/classzeek_1_1detail_1_1CPPTracker.html",tooltip=" "];
+  Node5 -> Node16 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" base_name" ,fontname="Helvetica"];
+  Node8 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" t" ,fontname="Helvetica"];
+  Node8 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" yield" ,fontname="Helvetica"];
+}

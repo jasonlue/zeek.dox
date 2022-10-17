@@ -1,0 +1,8 @@
+digraph "Graphical Class Hierarchy"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="zeek::FuncType::Prototype",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/ddd/classzeek_1_1FuncType.html#d5/de6/structzeek_1_1FuncType_1_1Prototype",tooltip=" "];
+}

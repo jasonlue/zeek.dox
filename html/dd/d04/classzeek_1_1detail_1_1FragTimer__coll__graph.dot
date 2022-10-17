@@ -1,0 +1,32 @@
+digraph "zeek::detail::FragTimer"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="zeek::detail::FragTimer",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="zeek::detail::Timer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/da2/classzeek_1_1detail_1_1Timer.html",tooltip=" "];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="zeek::detail::PQ_Element",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d3d/classzeek_1_1detail_1_1PQ__Element.html",tooltip=" "];
+  Node4 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" f" ,fontname="Helvetica"];
+  Node4 [label="zeek::detail::FragReassembler",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/dbf/classzeek_1_1detail_1_1FragReassembler.html",tooltip=" "];
+  Node5 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="zeek::Reassembler",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/dd1/classzeek_1_1Reassembler.html",tooltip=" "];
+  Node6 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="zeek::Obj",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/df1/classzeek_1_1Obj.html",tooltip=" "];
+  Node7 -> Node6 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" location" ,fontname="Helvetica"];
+  Node7 [label="zeek::detail::Location",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d1d/classzeek_1_1detail_1_1Location.html",tooltip=" "];
+  Node8 -> Node5 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" block_list\nold_block_list" ,fontname="Helvetica"];
+  Node8 [label="zeek::DataBlockList",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d95/classzeek_1_1DataBlockList.html",tooltip=" "];
+  Node5 -> Node8 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" reassembler" ,fontname="Helvetica"];
+  Node9 -> Node8 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" total_data_size" ,fontname="Helvetica"];
+  Node9 [label="size_t",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",tooltip=" "];
+  Node10 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" s" ,fontname="Helvetica"];
+  Node10 [label="zeek::session::Manager",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d3/d55/classzeek_1_1session_1_1Manager.html",tooltip=" "];
+  Node11 -> Node10 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" stats" ,fontname="Helvetica"];
+  Node11 [label="zeek::session::detail\l::ProtocolStats",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/de8/classzeek_1_1session_1_1detail_1_1ProtocolStats.html",tooltip=" "];
+  Node12 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" key" ,fontname="Helvetica"];
+  Node12 [label="std::tuple\< IPAddr,\l IPAddr, zeek_uint_t \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/dcc/namespacestd.html#d8/dcc/namespacestd",tooltip=" "];
+  Node1 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" expire_timer" ,fontname="Helvetica"];
+}

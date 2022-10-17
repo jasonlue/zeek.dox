@@ -1,0 +1,56 @@
+digraph "/Users/jlu/zeek/src/analyzer/protocol"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  compound=true
+  subgraph clusterdir_b574215abef37fb2fa3aede9ce3446fc {
+    graph [ bgcolor="#edf0f7", pencolor="grey50", style="filled,dashed,", label="analyzer", fontname="Helvetica", fontsize="10", URL="dir_b574215abef37fb2fa3aede9ce3446fc.html"]
+  subgraph clusterdir_5b88579d87e8de5dcee2ef4958d0594c {
+    graph [ bgcolor="#edf0f7", pencolor="grey25", style="filled,bold,", label="", fontname="Helvetica", fontsize="10", URL="dir_5b88579d87e8de5dcee2ef4958d0594c.html"]
+    dir_5b88579d87e8de5dcee2ef4958d0594c [shape=plaintext, label="protocol"];
+  dir_be95f6695fe5215406141e7d5f5e59a0 [shape=box, label="bittorrent", style="filled,", fillcolor="#a2b4d6", color="grey25", URL="dir_be95f6695fe5215406141e7d5f5e59a0.html"];
+  dir_3dc987768fd15f6e6b0db79ce855fb53 [shape=box, label="conn-size", style="filled,", fillcolor="#a2b4d6", color="grey25", URL="dir_3dc987768fd15f6e6b0db79ce855fb53.html"];
+  dir_41b3bd92bd4c8ed2ff522af12eb01a13 [shape=box, label="dce-rpc", style="filled,", fillcolor="#a2b4d6", color="grey25", URL="dir_41b3bd92bd4c8ed2ff522af12eb01a13.html"];
+  dir_fecd5134bd536e45e3c90cd4bc1de188 [shape=box, label="dhcp", style="filled,", fillcolor="#a2b4d6", color="grey25", URL="dir_fecd5134bd536e45e3c90cd4bc1de188.html"];
+  dir_01aff2cf46f110c9f8c8269433fa57fa [shape=box, label="dnp3", style="filled,", fillcolor="#a2b4d6", color="grey25", URL="dir_01aff2cf46f110c9f8c8269433fa57fa.html"];
+  dir_dd3dfa0f0023e5a8d4d0949652105a4f [shape=box, label="dns", style="filled,", fillcolor="#a2b4d6", color="grey25", URL="dir_dd3dfa0f0023e5a8d4d0949652105a4f.html"];
+  dir_04b48e91faf8e176210ae3d699b7f583 [shape=box, label="file", style="filled,", fillcolor="#a2b4d6", color="grey25", URL="dir_04b48e91faf8e176210ae3d699b7f583.html"];
+  dir_07ad8839c6d6749b5d8747e6bfb9cea1 [shape=box, label="finger", style="filled,", fillcolor="#a2b4d6", color="grey25", URL="dir_07ad8839c6d6749b5d8747e6bfb9cea1.html"];
+  dir_65a6b0cf67e09ad732c68c670af4a518 [shape=box, label="ftp", style="filled,", fillcolor="#a2b4d6", color="grey25", URL="dir_65a6b0cf67e09ad732c68c670af4a518.html"];
+  dir_19fea1fe2262779696f8fa759ee395f0 [shape=box, label="gnutella", style="filled,", fillcolor="#a2b4d6", color="grey25", URL="dir_19fea1fe2262779696f8fa759ee395f0.html"];
+  dir_51ce8d6fcee7462b111f5cd6edf51486 [shape=box, label="gssapi", style="filled,", fillcolor="#a2b4d6", color="grey25", URL="dir_51ce8d6fcee7462b111f5cd6edf51486.html"];
+  dir_5aa018136dd223b8ca94458be921a66c [shape=box, label="http", style="filled,", fillcolor="#a2b4d6", color="grey25", URL="dir_5aa018136dd223b8ca94458be921a66c.html"];
+  dir_a6fd2dfa69c6ae32e9249b2ca686a63e [shape=box, label="ident", style="filled,", fillcolor="#a2b4d6", color="grey25", URL="dir_a6fd2dfa69c6ae32e9249b2ca686a63e.html"];
+  dir_f07d764418cc1e54ec10002921b9315a [shape=box, label="imap", style="filled,", fillcolor="#a2b4d6", color="grey25", URL="dir_f07d764418cc1e54ec10002921b9315a.html"];
+  dir_b645a8185a98f021e8e79de515ade014 [shape=box, label="irc", style="filled,", fillcolor="#a2b4d6", color="grey25", URL="dir_b645a8185a98f021e8e79de515ade014.html"];
+  dir_b728751e757477689a9a33f318f88f40 [shape=box, label="krb", style="filled,", fillcolor="#a2b4d6", color="grey25", URL="dir_b728751e757477689a9a33f318f88f40.html"];
+  dir_a99c0fc87246330b7e32d4bbfbbadfa9 [shape=box, label="login", style="filled,", fillcolor="#a2b4d6", color="grey25", URL="dir_a99c0fc87246330b7e32d4bbfbbadfa9.html"];
+  dir_3fac71a69c2060bf660cf31faa88414a [shape=box, label="mime", style="filled,", fillcolor="#a2b4d6", color="grey25", URL="dir_3fac71a69c2060bf660cf31faa88414a.html"];
+  dir_4ced1782520c9ef84e039e441a28f52b [shape=box, label="modbus", style="filled,", fillcolor="#a2b4d6", color="grey25", URL="dir_4ced1782520c9ef84e039e441a28f52b.html"];
+  dir_6b898e9b595c93a85acba96facdfe95f [shape=box, label="mqtt", style="filled,", fillcolor="#a2b4d6", color="grey25", URL="dir_6b898e9b595c93a85acba96facdfe95f.html"];
+  dir_2a9d3c9024570cc000d93a79db4aa8de [shape=box, label="mysql", style="filled,", fillcolor="#a2b4d6", color="grey25", URL="dir_2a9d3c9024570cc000d93a79db4aa8de.html"];
+  dir_5e2b512c0c5eafe5995f958a36ff6c78 [shape=box, label="ncp", style="filled,", fillcolor="#a2b4d6", color="grey25", URL="dir_5e2b512c0c5eafe5995f958a36ff6c78.html"];
+  dir_2ea2a72e36f12d2de5118258fba8d231 [shape=box, label="netbios", style="filled,", fillcolor="#a2b4d6", color="grey25", URL="dir_2ea2a72e36f12d2de5118258fba8d231.html"];
+  dir_d062208fedf0ab6728daedee93ad159f [shape=box, label="ntlm", style="filled,", fillcolor="#a2b4d6", color="grey25", URL="dir_d062208fedf0ab6728daedee93ad159f.html"];
+  dir_0d4e51f840229feace9d385f161f1c3e [shape=box, label="ntp", style="filled,", fillcolor="#a2b4d6", color="grey25", URL="dir_0d4e51f840229feace9d385f161f1c3e.html"];
+  dir_7fb8f13fd02e9b278c420b05a713d638 [shape=box, label="pia", style="filled,", fillcolor="#a2b4d6", color="grey25", URL="dir_7fb8f13fd02e9b278c420b05a713d638.html"];
+  dir_ca73de4bf60a94abc10bf21ba228cf2b [shape=box, label="pop3", style="filled,", fillcolor="#a2b4d6", color="grey25", URL="dir_ca73de4bf60a94abc10bf21ba228cf2b.html"];
+  dir_4b67eb9b1620237c72a534c8042c80f3 [shape=box, label="radius", style="filled,", fillcolor="#a2b4d6", color="grey25", URL="dir_4b67eb9b1620237c72a534c8042c80f3.html"];
+  dir_077dc1b190a24fe87fe061feed5a4e29 [shape=box, label="rdp", style="filled,", fillcolor="#a2b4d6", color="grey25", URL="dir_077dc1b190a24fe87fe061feed5a4e29.html"];
+  dir_4bfd62b9c615428bb41fec326fa3c0fb [shape=box, label="rfb", style="filled,", fillcolor="#a2b4d6", color="grey25", URL="dir_4bfd62b9c615428bb41fec326fa3c0fb.html"];
+  dir_11fbe45696bc32245f6fa2b4a876ad16 [shape=box, label="rpc", style="filled,", fillcolor="#a2b4d6", color="grey25", URL="dir_11fbe45696bc32245f6fa2b4a876ad16.html"];
+  dir_b828f9823268589c44bb4498fc45ebcc [shape=box, label="sip", style="filled,", fillcolor="#a2b4d6", color="grey25", URL="dir_b828f9823268589c44bb4498fc45ebcc.html"];
+  dir_f9a15ba1c5023da8b8b8d6c5b0d3b21d [shape=box, label="smb", style="filled,", fillcolor="#a2b4d6", color="grey25", URL="dir_f9a15ba1c5023da8b8b8d6c5b0d3b21d.html"];
+  dir_1fa88887315624b31e773240d24b65ac [shape=box, label="smtp", style="filled,", fillcolor="#a2b4d6", color="grey25", URL="dir_1fa88887315624b31e773240d24b65ac.html"];
+  dir_3738e51d62b79843c5da488f8320afc9 [shape=box, label="snmp", style="filled,", fillcolor="#a2b4d6", color="grey25", URL="dir_3738e51d62b79843c5da488f8320afc9.html"];
+  dir_5b0af8c47be14db73487d35a3414d34b [shape=box, label="socks", style="filled,", fillcolor="#a2b4d6", color="grey25", URL="dir_5b0af8c47be14db73487d35a3414d34b.html"];
+  dir_55cd2481babd0da8e0820a3f7274bf23 [shape=box, label="ssh", style="filled,", fillcolor="#a2b4d6", color="grey25", URL="dir_55cd2481babd0da8e0820a3f7274bf23.html"];
+  dir_0dff9138d2e06f663a0bcae99e2c5121 [shape=box, label="ssl", style="filled,", fillcolor="#a2b4d6", color="grey25", URL="dir_0dff9138d2e06f663a0bcae99e2c5121.html"];
+  dir_7fa162db4d032ced2a341347d4e3def0 [shape=box, label="syslog", style="filled,", fillcolor="#a2b4d6", color="grey25", URL="dir_7fa162db4d032ced2a341347d4e3def0.html"];
+  dir_493a49ac65ec39aff169f78b57098104 [shape=box, label="tcp", style="filled,", fillcolor="#a2b4d6", color="grey25", URL="dir_493a49ac65ec39aff169f78b57098104.html"];
+  dir_4ec596de1209fa81c831fdeacdec02d3 [shape=box, label="xmpp", style="filled,", fillcolor="#a2b4d6", color="grey25", URL="dir_4ec596de1209fa81c831fdeacdec02d3.html"];
+  dir_0ecb58c38b12714254f42a217ca91f2c [shape=box, label="zip", style="filled,", fillcolor="#a2b4d6", color="grey25", URL="dir_0ecb58c38b12714254f42a217ca91f2c.html"];
+  }
+  }
+}

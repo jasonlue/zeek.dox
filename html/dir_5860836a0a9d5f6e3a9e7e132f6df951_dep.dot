@@ -1,0 +1,15 @@
+digraph "/Users/jlu/zeek/src/packet_analysis"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  compound=true
+  subgraph clusterdir_ad5ef0d7ac29eb47ccb661b82fa60e73 {
+    graph [ bgcolor="#edf0f7", pencolor="grey50", style="filled,dashed,", label="src", fontname="Helvetica", fontsize="10", URL="dir_ad5ef0d7ac29eb47ccb661b82fa60e73.html"]
+  subgraph clusterdir_5860836a0a9d5f6e3a9e7e132f6df951 {
+    graph [ bgcolor="#edf0f7", pencolor="grey25", style="filled,bold,", label="", fontname="Helvetica", fontsize="10", URL="dir_5860836a0a9d5f6e3a9e7e132f6df951.html"]
+    dir_5860836a0a9d5f6e3a9e7e132f6df951 [shape=plaintext, label="packet_analysis"];
+  dir_d66370ba551cea76de8be34d28adc26c [shape=box, label="protocol", style="filled,", fillcolor="#a2b4d6", color="grey25", URL="dir_d66370ba551cea76de8be34d28adc26c.html"];
+  }
+  }
+}

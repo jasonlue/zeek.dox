@@ -1,0 +1,9 @@
+digraph "zeek::session::Stats"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="zeek::session::Stats",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node2 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" max_ICMP_conns\nmax_TCP_conns\nmax_UDP_conns\nmax_fragments\nnum_ICMP_conns\nnum_TCP_conns\nnum_UDP_conns\nnum_fragments" ,fontname="Helvetica"];
+  Node2 [label="size_t",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",tooltip=" "];
+}

@@ -1,0 +1,20 @@
+digraph "/Users/jlu/zeek/src/input/readers"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  compound=true
+  subgraph clusterdir_e8e56a86e268aeea0e0c734b465cbd54 {
+    graph [ bgcolor="#edf0f7", pencolor="grey50", style="filled,dashed,", label="input", fontname="Helvetica", fontsize="10", URL="dir_e8e56a86e268aeea0e0c734b465cbd54.html"]
+  subgraph clusterdir_849859acfd53e90820e37d4cf44993a7 {
+    graph [ bgcolor="#edf0f7", pencolor="grey25", style="filled,bold,", label="", fontname="Helvetica", fontsize="10", URL="dir_849859acfd53e90820e37d4cf44993a7.html"]
+    dir_849859acfd53e90820e37d4cf44993a7 [shape=plaintext, label="readers"];
+  dir_f87a3f7e376e734b56096006c5592f67 [shape=box, label="ascii", style="filled,", fillcolor="#a2b4d6", color="grey25", URL="dir_f87a3f7e376e734b56096006c5592f67.html"];
+  dir_bc7d51edf5833da93ef7e37e7e16be00 [shape=box, label="benchmark", style="filled,", fillcolor="#a2b4d6", color="grey25", URL="dir_bc7d51edf5833da93ef7e37e7e16be00.html"];
+  dir_94db359a102b562f330466b6faabf604 [shape=box, label="binary", style="filled,", fillcolor="#a2b4d6", color="grey25", URL="dir_94db359a102b562f330466b6faabf604.html"];
+  dir_331b79c8b13df028e721b44666edd99c [shape=box, label="config", style="filled,", fillcolor="#a2b4d6", color="grey25", URL="dir_331b79c8b13df028e721b44666edd99c.html"];
+  dir_03a10bda67b8e96c573fd45561e1dc04 [shape=box, label="raw", style="filled,", fillcolor="#a2b4d6", color="grey25", URL="dir_03a10bda67b8e96c573fd45561e1dc04.html"];
+  dir_bc81c6a569a4a8a63cd1a277830bb900 [shape=box, label="sqlite", style="filled,", fillcolor="#a2b4d6", color="grey25", URL="dir_bc81c6a569a4a8a63cd1a277830bb900.html"];
+  }
+  }
+}

@@ -1,0 +1,50 @@
+digraph "zeek::threading::BasicOutputMessage"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="zeek::threading::BasicOutput\lMessage",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="zeek::threading::Message",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/dbb/classzeek_1_1threading_1_1Message.html",tooltip=" "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="zeek::threading::OutputMessage\l\< ReaderFrontend \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d41/classzeek_1_1threading_1_1OutputMessage.html",tooltip=" "];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="zeek::input::ClearMessage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/d9e/classzeek_1_1input_1_1ClearMessage.html",tooltip=" "];
+  Node3 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="zeek::input::DeleteMessage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d43/classzeek_1_1input_1_1DeleteMessage.html",tooltip=" "];
+  Node3 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="zeek::input::DisableMessage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/df8/classzeek_1_1input_1_1DisableMessage.html",tooltip=" "];
+  Node3 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="zeek::input::EndCurrentSend\lMessage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/df0/classzeek_1_1input_1_1EndCurrentSendMessage.html",tooltip=" "];
+  Node3 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="zeek::input::EndOfDataMessage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/d4d/classzeek_1_1input_1_1EndOfDataMessage.html",tooltip=" "];
+  Node3 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="zeek::input::PutMessage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d40/classzeek_1_1input_1_1PutMessage.html",tooltip=" "];
+  Node3 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="zeek::input::ReaderClosed\lMessage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/d93/classzeek_1_1input_1_1ReaderClosedMessage.html",tooltip=" "];
+  Node3 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="zeek::input::ReaderError\lMessage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/dd4/classzeek_1_1input_1_1ReaderErrorMessage.html",tooltip=" "];
+  Node3 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="zeek::input::SendEntryMessage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/d28/classzeek_1_1input_1_1SendEntryMessage.html",tooltip=" "];
+  Node1 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="zeek::threading::OutputMessage\l\< WriterFrontend \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d41/classzeek_1_1threading_1_1OutputMessage.html",tooltip=" "];
+  Node13 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="zeek::logging::DisableMessage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/de5/classzeek_1_1logging_1_1DisableMessage.html",tooltip=" "];
+  Node13 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="zeek::logging::FlushWrite\lBufferMessage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/d14/classzeek_1_1logging_1_1FlushWriteBufferMessage.html",tooltip=" "];
+  Node13 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="zeek::logging::RotationFinished\lMessage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/d4e/classzeek_1_1logging_1_1RotationFinishedMessage.html",tooltip=" "];
+  Node1 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="zeek::threading::OutputMessage\l\< MsgThread \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d41/classzeek_1_1threading_1_1OutputMessage.html",tooltip=" "];
+  Node17 -> Node18 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="zeek::threading::detail\l::FinishedMessage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d0/d0f/classzeek_1_1threading_1_1detail_1_1FinishedMessage.html",tooltip=" "];
+  Node17 -> Node19 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 [label="zeek::threading::detail\l::KillMeMessage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/d44/classzeek_1_1threading_1_1detail_1_1KillMeMessage.html",tooltip=" "];
+  Node17 -> Node20 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node20 [label="zeek::threading::detail\l::ReporterMessage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/de4/classzeek_1_1threading_1_1detail_1_1ReporterMessage.html",tooltip=" "];
+  Node17 -> Node21 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node21 [label="zeek::threading::detail\l::SendEventMessage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/db8/classzeek_1_1threading_1_1detail_1_1SendEventMessage.html",tooltip=" "];
+  Node1 -> Node22 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node22 [label="zeek::threading::OutputMessage\< O \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d41/classzeek_1_1threading_1_1OutputMessage.html",tooltip=" "];
+}

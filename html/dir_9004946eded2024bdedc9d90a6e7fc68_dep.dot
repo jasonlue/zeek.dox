@@ -1,0 +1,11 @@
+digraph "/Users/jlu/zeek/src/file_analysis/analyzer/pe"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  compound=true
+  subgraph clusterdir_c6068b60a0d16f263d9ede7ca7d07b47 {
+    graph [ bgcolor="#edf0f7", pencolor="grey50", style="filled,dashed,", label="analyzer", fontname="Helvetica", fontsize="10", URL="dir_c6068b60a0d16f263d9ede7ca7d07b47.html"]
+  dir_9004946eded2024bdedc9d90a6e7fc68 [shape=box, label="pe", style="filled,bold,", fillcolor="#edf0f7", color="grey25", URL="dir_9004946eded2024bdedc9d90a6e7fc68.html"];
+  }
+}

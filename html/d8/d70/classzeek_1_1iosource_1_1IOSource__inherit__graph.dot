@@ -1,0 +1,52 @@
+digraph "zeek::iosource::IOSource"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="zeek::iosource::IOSource",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="zeek::Broker::Manager",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/d79/classzeek_1_1Broker_1_1Manager.html",tooltip=" "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="zeek::EventMgr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/d0e/classzeek_1_1EventMgr.html",tooltip=" "];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="zeek::Supervisor",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/dcb/classzeek_1_1Supervisor.html",tooltip=" "];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="zeek::detail::DNS_Mgr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/df5/classzeek_1_1detail_1_1DNS__Mgr.html",tooltip=" "];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="zeek::detail::TestDNS_Mgr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/dff/classzeek_1_1detail_1_1TestDNS__Mgr.html",tooltip=" "];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="zeek::detail::TimerMgr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/db5/classzeek_1_1detail_1_1TimerMgr.html",tooltip=" "];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="zeek::detail::trigger\l::Manager",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/d81/classzeek_1_1detail_1_1trigger_1_1Manager.html",tooltip=" "];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="zeek::iosource::Manager\l::WakeupHandler",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/d8d/classzeek_1_1iosource_1_1Manager_1_1WakeupHandler.html",tooltip=" "];
+  Node1 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="zeek::iosource::PktSrc",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/db2/classzeek_1_1iosource_1_1PktSrc.html",tooltip=" "];
+  Node10 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="zeek::iosource::pcap\l::PcapSource",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/d70/classzeek_1_1iosource_1_1pcap_1_1PcapSource.html",tooltip=" "];
+  Node1 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="zeek::threading::MsgThread",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/d7d/classzeek_1_1threading_1_1MsgThread.html",tooltip=" "];
+  Node12 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="zeek::input::ReaderBackend",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/d1d/classzeek_1_1input_1_1ReaderBackend.html",tooltip=" "];
+  Node13 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="zeek::input::reader\l::detail::Ascii",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/db8/classzeek_1_1input_1_1reader_1_1detail_1_1Ascii.html",tooltip=" "];
+  Node13 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="zeek::input::reader\l::detail::Benchmark",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/dd6/classzeek_1_1input_1_1reader_1_1detail_1_1Benchmark.html",tooltip=" "];
+  Node13 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="zeek::input::reader\l::detail::Binary",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/da5/classzeek_1_1input_1_1reader_1_1detail_1_1Binary.html",tooltip=" "];
+  Node13 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="zeek::input::reader\l::detail::Config",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d3/dd1/classzeek_1_1input_1_1reader_1_1detail_1_1Config.html",tooltip=" "];
+  Node13 -> Node18 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="zeek::input::reader\l::detail::Raw",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/d53/classzeek_1_1input_1_1reader_1_1detail_1_1Raw.html",tooltip=" "];
+  Node13 -> Node19 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 [label="zeek::input::reader\l::detail::SQLite",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/d1a/classzeek_1_1input_1_1reader_1_1detail_1_1SQLite.html",tooltip=" "];
+  Node12 -> Node20 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node20 [label="zeek::logging::WriterBackend",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d30/classzeek_1_1logging_1_1WriterBackend.html",tooltip=" "];
+  Node20 -> Node21 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node21 [label="zeek::logging::writer\l::detail::Ascii",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d0/d9f/classzeek_1_1logging_1_1writer_1_1detail_1_1Ascii.html",tooltip=" "];
+  Node20 -> Node22 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node22 [label="zeek::logging::writer\l::detail::None",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/d15/classzeek_1_1logging_1_1writer_1_1detail_1_1None.html",tooltip=" "];
+  Node20 -> Node23 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node23 [label="zeek::logging::writer\l::detail::SQLite",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/dee/classzeek_1_1logging_1_1writer_1_1detail_1_1SQLite.html",tooltip=" "];
+}

@@ -1,0 +1,32 @@
+digraph "/Users/jlu/zeek/src/plugin/Manager.h"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="/Users/jlu/zeek/src\l/plugin/Manager.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="/Users/jlu/zeek/src\l/Event.cc",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/dcf/Event_8cc.html",tooltip=" "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="/Users/jlu/zeek/src\l/Func.cc",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/da5/Func_8cc.html",tooltip=" "];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="/Users/jlu/zeek/src\l/Obj.cc",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/dae/Obj_8cc.html",tooltip=" "];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="/Users/jlu/zeek/src\l/Reporter.cc",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/de6/Reporter_8cc.html",tooltip=" "];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="/Users/jlu/zeek/src\l/RuleMatcher.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d6b/RuleMatcher_8h.html",tooltip=" "];
+  Node6 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="/Users/jlu/zeek/src\l/Rule.cc",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d8d/Rule_8cc.html",tooltip=" "];
+  Node6 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="/Users/jlu/zeek/src\l/RuleAction.cc",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/dab/RuleAction_8cc.html",tooltip=" "];
+  Node6 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="/Users/jlu/zeek/src\l/RuleCondition.cc",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/dca/RuleCondition_8cc.html",tooltip=" "];
+  Node6 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="/Users/jlu/zeek/src\l/RuleMatcher.cc",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/dbd/RuleMatcher_8cc.html",tooltip=" "];
+  Node6 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="/Users/jlu/zeek/src\l/Stats.cc",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d99/Stats_8cc.html",tooltip=" "];
+  Node6 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="/Users/jlu/zeek/src\l/zeek-setup.cc",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/d80/zeek-setup_8cc.html",tooltip=" "];
+  Node1 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="/Users/jlu/zeek/src\l/RunState.cc",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d0/d0b/RunState_8cc.html",tooltip=" "];
+  Node1 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}
